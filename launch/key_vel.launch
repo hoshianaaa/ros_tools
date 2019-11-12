@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name="key_teleop" pkg="key_teleop" type="key_teleop.py" output="screen">
+    <remap from="key_vel" to="icart_mini/cmd_vel"/>
+  </node>
+</launch>
